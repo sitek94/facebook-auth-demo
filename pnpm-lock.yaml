@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/facebook-js-sdk': ^3.3.5
+  '@types/node': ^18.7.2
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.0.1
@@ -14,6 +16,8 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  '@types/facebook-js-sdk': 3.3.5
+  '@types/node': 18.7.2
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@vitejs/plugin-react': 2.0.1_vite@3.0.7
@@ -334,6 +338,14 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@types/facebook-js-sdk/3.3.5:
+    resolution: {integrity: sha512-80UAq9UoDzDDpsRXxV2ci1R+g/durNJTEzqh3ES4YkswW5T2lWAUuAghUWruw/H849ZhugyQqeaLHKF0iapReg==}
+    dev: true
+
+  /@types/node/18.7.2:
+    resolution: {integrity: sha512-ce7MIiaYWCFv6A83oEultwhBXb22fxwNOQf5DIxWA4WXvDQ7K+L0fbWl/YOfCzlR5B/uFkSnVBhPcOfOECcWvA==}
     dev: true
 
   /@types/prop-types/15.7.5:
